@@ -1,0 +1,15 @@
+#gitignore
+.idea
+venv
+
+*.pyc
+
+*.mid
+*.mp3
+*.wav
+*.log
+
+server_database/*
+!server_database/readme.txt
+
+generateattempt.py

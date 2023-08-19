@@ -1,0 +1,21 @@
+Trial 51 summary
+Hyperparameters:
+input dropout: pitch: 0.4
+input dropout: duration: 0.2
+input dropout: pos_internal: 0.1
+input dropout: pos_external: 0.3
+input dropout: valid_pitches: 0.2
+input dropout: tone_0: 0.8
+input dropout: tone_1: 0.2
+input dropout: tone_2: 0.6
+input dropout: tone_3: 0.8
+input dropout: tone_4: 0.1
+input dropout: tone_5: 0.4
+input dropout: tone_6: 0.1
+input dropout: tone_7: 0.1
+combined input dropout 1: 0.2
+combined input dropout 2: 0.1
+combined input dropout 3: 0.3
+pitch output dropout: 0.3
+duration output dropout: 0.3
+Score: 2.0206902027130127

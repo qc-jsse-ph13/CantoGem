@@ -1,0 +1,1 @@
+User data (generated midis, mp3, the like) will be stored here. Do not make any modifications.
