@@ -22,6 +22,9 @@ def send_melody(userid):
         abort(409)
 
     data = request.json
+    if len(data["lyrics"]) > 150:
+        abort(403)
+
     if "model_type" not in data:
         data["model_type"] = "model_weights"
     
@@ -42,19 +45,21 @@ def invalid_text(_):
 def send_midi(userid):
     if not os.path.exists(get_user_data_path(userid, MIDI_SAVE_PATH)):
         abort(404)
-    with open(get_user_data_path(userid, MIDI_SAVE_PATH), "rb") as midi_file:
-        response = make_response(midi_file.read())
-        response.headers.set('Content-Type', 'audio/midi')
-        return response
+    return send_file(
+        get_user_data_path(userid, MIDI_SAVE_PATH),
+        mimetype="audio/midi",
+        as_attachment=True
+    )
 
 @app.route("/<userid>/get-mp3")
 def send_mp3(userid):
     if not os.path.exists(get_user_data_path(userid, MP3_PATH)):
         abort(404)
-    with open(get_user_data_path(userid, MP3_PATH), "rb") as mp3_file:
-        response = make_response(mp3_file.read())
-        response.headers.set('Content-Type', 'audio/mp3')
-        return response
+    return send_file(
+        get_user_data_path(userid, MP3_PATH),
+        mimetype="audio/mp3",
+        as_attachment=True
+    )
 
 
 @app.route("/<userid>/progress")
