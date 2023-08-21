@@ -247,7 +247,7 @@ def convert_song_to_lyric_data(song):
     all_tones = []
     all_words = ""
 
-    for event in song.flat.notesAndRests:
+    for i, event in enumerate(song.flat.notesAndRests):
         if not isinstance(event, m21.note.Note):
             continue
 
@@ -255,6 +255,7 @@ def convert_song_to_lyric_data(song):
             continue
 
         if event.lyric is None:
+            print(song.flat.notesAndRests[i-2].lyric + song.flat.notesAndRests[i-1].lyric)
             raise AttributeError("Lyrics cannot be null")
         all_words += event.lyric
 

@@ -61,7 +61,7 @@ def build_model():
     z = keras.layers.LSTM(64, return_sequences=True)(
         keras.layers.concatenate([LSTMs["pos_internal"], LSTMs["current_tone"], LSTMs["next_tone"], LSTMs["future_words"]])
     )
-    z = keras.layers.Dropout(0.4)(y)
+    z = keras.layers.Dropout(0.4)(z)
 
     x2 = keras.layers.LSTM(384)(keras.layers.concatenate([x, y, z]))
     x2 = keras.layers.BatchNormalization()(x2)

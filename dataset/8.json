@@ -1,20 +1,14 @@
 [
     {
         "pitch": 0,
-        "duration": 2,
+        "duration": 4,
         "tone": 7,
         "phrasing": 0
     },
     {
         "pitch": 60,
-        "duration": 1,
+        "duration": 2,
         "tone": 5,
-        "phrasing": 1
-    },
-    {
-        "pitch": 60,
-        "duration": 1,
-        "tone": 3,
         "phrasing": 2
     },
     {
@@ -22,6 +16,24 @@
         "duration": 2,
         "tone": 3,
         "phrasing": 1
+    },
+    {
+        "pitch": 60,
+        "duration": 4,
+        "tone": 5,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 60,
+        "duration": 2,
+        "tone": 4,
+        "phrasing": 2
     },
     {
         "tone": 10,
@@ -31,158 +43,128 @@
     },
     {
         "pitch": 62,
-        "duration": 1,
-        "tone": 5,
-        "phrasing": 1
-    },
-    {
-        "pitch": 64,
-        "duration": 1,
-        "tone": 2,
-        "phrasing": 2
-    },
-    {
-        "pitch": 64,
-        "duration": 3,
-        "tone": 2,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 62,
-        "duration": 1,
-        "tone": 2,
-        "phrasing": 2
-    },
-    {
-        "pitch": 60,
         "duration": 2,
-        "tone": 5,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 59,
-        "duration": 1,
-        "tone": 6,
-        "phrasing": 1
-    },
-    {
-        "pitch": 60,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "pitch": 0,
-        "duration": 2,
-        "tone": 7,
-        "phrasing": 0
-    },
-    {
-        "pitch": 60,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "pitch": 60,
-        "duration": 1,
-        "tone": 5,
-        "phrasing": 1
-    },
-    {
-        "pitch": 60,
-        "duration": 2,
-        "tone": 3,
-        "phrasing": 2
-    },
-    {
-        "pitch": 62,
-        "duration": 1,
-        "tone": 1,
-        "phrasing": 1
-    },
-    {
-        "pitch": 60,
-        "duration": 1,
-        "tone": 5,
-        "phrasing": 2
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 59,
-        "duration": 3,
-        "tone": 6,
-        "phrasing": 1
-    },
-    {
-        "pitch": 59,
-        "duration": 1,
-        "tone": 6,
-        "phrasing": 2
-    },
-    {
-        "pitch": 60,
-        "duration": 2,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 59,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "pitch": 57,
-        "duration": 1,
-        "tone": 6,
-        "phrasing": 1
-    },
-    {
-        "pitch": 0,
-        "duration": 2,
-        "tone": 7,
-        "phrasing": 0
-    },
-    {
-        "pitch": 57,
-        "duration": 1,
         "tone": 4,
         "phrasing": 1
     },
     {
-        "pitch": 69,
-        "duration": 1,
+        "pitch": 64,
+        "duration": 6,
+        "tone": 6,
+        "phrasing": 2
+    },
+    {
+        "pitch": 67,
+        "duration": 6,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "pitch": 0,
+        "duration": 4,
+        "tone": 7,
+        "phrasing": 0
+    },
+    {
+        "pitch": 65,
+        "duration": 4,
+        "tone": 3,
+        "phrasing": 2
+    },
+    {
+        "pitch": 65,
+        "duration": 4,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "pitch": 60,
+        "duration": 2,
+        "tone": 4,
+        "phrasing": 1
+    },
+    {
+        "pitch": 65,
+        "duration": 6,
+        "tone": 5,
+        "phrasing": 2
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 64,
+        "duration": 16,
+        "tone": 6,
+        "phrasing": 1
+    },
+    {
+        "pitch": 0,
+        "duration": 4,
+        "tone": 7,
+        "phrasing": 0
+    },
+    {
+        "pitch": 60,
+        "duration": 2,
+        "tone": 4,
+        "phrasing": 1
+    },
+    {
+        "pitch": 60,
+        "duration": 2,
+        "tone": 4,
+        "phrasing": 2
+    },
+    {
+        "pitch": 60,
+        "duration": 4,
+        "tone": 4,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 64,
+        "duration": 2,
+        "tone": 6,
+        "phrasing": 2
+    },
+    {
+        "pitch": 67,
+        "duration": 10,
         "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "pitch": 0,
+        "duration": 4,
+        "tone": 7,
+        "phrasing": 0
+    },
+    {
+        "pitch": 67,
+        "duration": 4,
+        "tone": 3,
         "phrasing": 2
     },
     {
         "pitch": 69,
-        "duration": 2,
+        "duration": 4,
         "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "pitch": 67,
+        "duration": 4,
+        "tone": 2,
         "phrasing": 1
     },
     {
@@ -193,87 +175,189 @@
     },
     {
         "pitch": 67,
-        "duration": 1,
-        "tone": 1,
-        "phrasing": 2
+        "duration": 4,
+        "tone": 5,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
     },
     {
         "pitch": 65,
-        "duration": 1,
+        "duration": 4,
         "tone": 3,
         "phrasing": 1
     },
     {
         "pitch": 67,
-        "duration": 3,
+        "duration": 16,
         "tone": 2,
         "phrasing": 1
     },
     {
-        "pitch": 64,
-        "duration": 1,
-        "tone": 6,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 60,
-        "duration": 1,
-        "tone": 4,
-        "phrasing": 2
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 62,
-        "duration": 1,
-        "tone": 4,
-        "phrasing": 1
-    },
-    {
-        "pitch": 64,
-        "duration": 1,
-        "tone": 6,
-        "phrasing": 1
-    },
-    {
-        "pitch": 65,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
         "pitch": 0,
-        "duration": 2,
+        "duration": 4,
         "tone": 7,
         "phrasing": 0
     },
     {
-        "pitch": 65,
+        "pitch": 60,
+        "duration": 2,
+        "tone": 4,
+        "phrasing": 1
+    },
+    {
+        "pitch": 60,
+        "duration": 2,
+        "tone": 4,
+        "phrasing": 2
+    },
+    {
+        "pitch": 60,
+        "duration": 4,
+        "tone": 4,
+        "phrasing": 1
+    },
+    {
+        "pitch": 67,
         "duration": 2,
         "tone": 1,
         "phrasing": 2
     },
     {
-        "pitch": 60,
+        "pitch": 67,
+        "duration": 10,
+        "tone": 2,
+        "phrasing": 1
+    },
+    {
+        "pitch": 0,
+        "duration": 4,
+        "tone": 7,
+        "phrasing": 0
+    },
+    {
+        "pitch": 67,
+        "duration": 4,
+        "tone": 5,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 69,
+        "duration": 4,
+        "tone": 3,
+        "phrasing": 2
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 72,
+        "duration": 8,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "pitch": 69,
+        "duration": 4,
+        "tone": 2,
+        "phrasing": 2
+    },
+    {
+        "pitch": 67,
+        "duration": 8,
+        "tone": 5,
+        "phrasing": 1
+    },
+    {
+        "pitch": 0,
+        "duration": 4,
+        "tone": 7,
+        "phrasing": 0
+    },
+    {
+        "pitch": 65,
+        "duration": 4,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 64,
+        "duration": 6,
+        "tone": 6,
+        "phrasing": 2
+    },
+    {
+        "pitch": 64,
         "duration": 2,
         "tone": 6,
         "phrasing": 1
     },
     {
-        "pitch": 57,
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 65,
+        "duration": 2,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 64,
+        "duration": 14,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "pitch": 0,
+        "duration": 4,
+        "tone": 7,
+        "phrasing": 0
+    },
+    {
+        "pitch": 55,
+        "duration": 2,
+        "tone": 4,
+        "phrasing": 2
+    },
+    {
+        "pitch": 55,
         "duration": 2,
         "tone": 4,
         "phrasing": 1
+    },
+    {
+        "pitch": 64,
+        "duration": 4,
+        "tone": 1,
+        "phrasing": 2
     },
     {
         "pitch": 62,
@@ -282,992 +366,1622 @@
         "phrasing": 1
     },
     {
-        "pitch": 0,
-        "duration": 2,
-        "tone": 7,
-        "phrasing": 0
-    },
-    {
-        "pitch": 64,
-        "duration": 1,
-        "tone": 6,
-        "phrasing": 2
-    },
-    {
-        "pitch": 64,
-        "duration": 1,
-        "tone": 6,
-        "phrasing": 1
-    },
-    {
-        "pitch": 64,
-        "duration": 2,
-        "tone": 6,
-        "phrasing": 1
-    },
-    {
-        "pitch": 65,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "pitch": 67,
-        "duration": 1,
-        "tone": 1,
-        "phrasing": 2
-    },
-    {
-        "pitch": 67,
-        "duration": 3,
-        "tone": 1,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 65,
-        "duration": 1,
-        "tone": 1,
-        "phrasing": 2
-    },
-    {
-        "pitch": 64,
-        "duration": 2,
-        "tone": 2,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 62,
-        "duration": 1,
-        "tone": 2,
-        "phrasing": 1
-    },
-    {
         "pitch": 60,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "pitch": 0,
-        "duration": 2,
-        "tone": 7,
-        "phrasing": 0
-    },
-    {
-        "pitch": 60,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "pitch": 60,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 2
-    },
-    {
-        "pitch": 60,
-        "duration": 2,
-        "tone": 5,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 62,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 2
-    },
-    {
-        "pitch": 64,
-        "duration": 1,
-        "tone": 1,
-        "phrasing": 1
-    },
-    {
-        "pitch": 64,
-        "duration": 3,
-        "tone": 1,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 62,
-        "duration": 1,
-        "tone": 1,
-        "phrasing": 1
-    },
-    {
-        "pitch": 60,
-        "duration": 2,
-        "tone": 5,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 59,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 2
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 57,
-        "duration": 1,
-        "tone": 4,
-        "phrasing": 1
-    },
-    {
-        "pitch": 0,
-        "duration": 2,
-        "tone": 7,
-        "phrasing": 0
-    },
-    {
-        "pitch": 57,
-        "duration": 1,
-        "tone": 4,
-        "phrasing": 1
-    },
-    {
-        "pitch": 69,
-        "duration": 1,
-        "tone": 1,
-        "phrasing": 2
-    },
-    {
-        "pitch": 69,
-        "duration": 2,
-        "tone": 1,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 67,
-        "duration": 1,
-        "tone": 1,
-        "phrasing": 2
-    },
-    {
-        "pitch": 65,
-        "duration": 1,
-        "tone": 5,
-        "phrasing": 1
-    },
-    {
-        "pitch": 67,
-        "duration": 3,
-        "tone": 2,
-        "phrasing": 1
-    },
-    {
-        "pitch": 64,
-        "duration": 1,
-        "tone": 6,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 60,
-        "duration": 1,
-        "tone": 4,
-        "phrasing": 2
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 62,
-        "duration": 1,
-        "tone": 4,
-        "phrasing": 1
-    },
-    {
-        "pitch": 64,
-        "duration": 1,
-        "tone": 6,
-        "phrasing": 1
-    },
-    {
-        "pitch": 65,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "pitch": 0,
-        "duration": 2,
-        "tone": 7,
-        "phrasing": 0
-    },
-    {
-        "pitch": 65,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 64,
-        "duration": 1,
-        "tone": 6,
-        "phrasing": 2
-    },
-    {
-        "pitch": 65,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "pitch": 67,
-        "duration": 2,
-        "tone": 1,
-        "phrasing": 2
-    },
-    {
-        "pitch": 67,
-        "duration": 4,
-        "tone": 1,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 67,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "pitch": 69,
-        "duration": 2,
-        "tone": 1,
-        "phrasing": 2
-    },
-    {
-        "pitch": 67,
-        "duration": 2,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "pitch": 64,
-        "duration": 3,
-        "tone": 6,
-        "phrasing": 1
-    },
-    {
-        "pitch": 67,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "pitch": 69,
-        "duration": 2,
-        "tone": 1,
-        "phrasing": 1
-    },
-    {
-        "pitch": 67,
-        "duration": 2,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "pitch": 62,
-        "duration": 3,
-        "tone": 4,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 62,
-        "duration": 1,
-        "tone": 5,
-        "phrasing": 2
-    },
-    {
-        "pitch": 64,
-        "duration": 2,
-        "tone": 1,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 62,
-        "duration": 2,
-        "tone": 1,
-        "phrasing": 2
-    },
-    {
-        "pitch": 60,
-        "duration": 2,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 72,
-        "duration": 1,
-        "tone": 1,
-        "phrasing": 2
-    },
-    {
-        "pitch": 72,
-        "duration": 1,
-        "tone": 2,
-        "phrasing": 1
-    },
-    {
-        "pitch": 72,
-        "duration": 1,
-        "tone": 2,
-        "phrasing": 1
-    },
-    {
-        "pitch": 67,
-        "duration": 1,
-        "tone": 5,
-        "phrasing": 1
-    },
-    {
-        "pitch": 67,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "pitch": 64,
-        "duration": 1,
-        "tone": 6,
-        "phrasing": 2
-    },
-    {
-        "pitch": 69,
-        "duration": 3,
-        "tone": 2,
-        "phrasing": 1
-    },
-    {
-        "pitch": 60,
-        "duration": 1,
-        "tone": 4,
-        "phrasing": 2
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 69,
-        "duration": 1,
-        "tone": 6,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 71,
-        "duration": 1,
-        "tone": 6,
-        "phrasing": 1
-    },
-    {
-        "pitch": 72,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 2
-    },
-    {
-        "pitch": 72,
-        "duration": 2,
-        "tone": 5,
-        "phrasing": 1
-    },
-    {
-        "pitch": 60,
-        "duration": 1,
-        "tone": 4,
-        "phrasing": 1
-    },
-    {
-        "pitch": 60,
-        "duration": 1,
-        "tone": 4,
-        "phrasing": 1
-    },
-    {
-        "pitch": 60,
-        "duration": 1,
-        "tone": 4,
-        "phrasing": 1
-    },
-    {
-        "pitch": 60,
-        "duration": 1,
-        "tone": 4,
-        "phrasing": 2
-    },
-    {
-        "pitch": 62,
-        "duration": 1,
-        "tone": 6,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 64,
-        "duration": 1,
-        "tone": 6,
-        "phrasing": 2
-    },
-    {
-        "pitch": 67,
-        "duration": 4,
-        "tone": 1,
-        "phrasing": 1
-    },
-    {
-        "pitch": 64,
-        "duration": 1,
-        "tone": 6,
-        "phrasing": 2
-    },
-    {
-        "pitch": 67,
-        "duration": 1,
-        "tone": 1,
-        "phrasing": 1
-    },
-    {
-        "pitch": 65,
-        "duration": 1,
-        "tone": 5,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 64,
-        "duration": 1,
-        "tone": 6,
-        "phrasing": 2
-    },
-    {
-        "pitch": 65,
-        "duration": 2,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "pitch": 65,
-        "duration": 1,
-        "tone": 5,
-        "phrasing": 1
-    },
-    {
-        "pitch": 65,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 2
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 64,
-        "duration": 1,
-        "tone": 6,
-        "phrasing": 1
-    },
-    {
-        "pitch": 65,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 67,
-        "duration": 1,
-        "tone": 5,
-        "phrasing": 1
-    },
-    {
-        "pitch": 69,
-        "duration": 1,
-        "tone": 1,
-        "phrasing": 2
-    },
-    {
-        "pitch": 67,
         "duration": 4,
         "tone": 3,
         "phrasing": 1
-    },
-    {
-        "pitch": 67,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "pitch": 69,
-        "duration": 2,
-        "tone": 2,
-        "phrasing": 2
-    },
-    {
-        "pitch": 67,
-        "duration": 2,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "pitch": 64,
-        "duration": 3,
-        "tone": 6,
-        "phrasing": 1
-    },
-    {
-        "pitch": 67,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "pitch": 69,
-        "duration": 2,
-        "tone": 1,
-        "phrasing": 2
-    },
-    {
-        "pitch": 67,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "pitch": 64,
-        "duration": 1,
-        "tone": 6,
-        "phrasing": 2
-    },
-    {
-        "pitch": 62,
-        "duration": 3,
-        "tone": 4,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 62,
-        "duration": 1,
-        "tone": 2,
-        "phrasing": 1
-    },
-    {
-        "pitch": 64,
-        "duration": 2,
-        "tone": 1,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 62,
-        "duration": 2,
-        "tone": 1,
-        "phrasing": 1
-    },
-    {
-        "pitch": 60,
-        "duration": 2,
-        "tone": 5,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 72,
-        "duration": 1,
-        "tone": 1,
-        "phrasing": 2
-    },
-    {
-        "pitch": 72,
-        "duration": 1,
-        "tone": 1,
-        "phrasing": 1
-    },
-    {
-        "pitch": 72,
-        "duration": 1,
-        "tone": 1,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 67,
-        "duration": 1,
-        "tone": 5,
-        "phrasing": 1
-    },
-    {
-        "pitch": 67,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "pitch": 64,
-        "duration": 1,
-        "tone": 6,
-        "phrasing": 2
-    },
-    {
-        "pitch": 69,
-        "duration": 3,
-        "tone": 2,
-        "phrasing": 1
-    },
-    {
-        "pitch": 60,
-        "duration": 1,
-        "tone": 4,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 69,
-        "duration": 1,
-        "tone": 6,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 71,
-        "duration": 1,
-        "tone": 6,
-        "phrasing": 1
-    },
-    {
-        "pitch": 72,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 2
-    },
-    {
-        "pitch": 72,
-        "duration": 2,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 67,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "pitch": 67,
-        "duration": 1,
-        "tone": 5,
-        "phrasing": 1
-    },
-    {
-        "pitch": 67,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "pitch": 67,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "pitch": 71,
-        "duration": 1,
-        "tone": 1,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 72,
-        "duration": 1,
-        "tone": 1,
-        "phrasing": 2
-    },
-    {
-        "pitch": 72,
-        "duration": 2,
-        "tone": 1,
-        "phrasing": 1
-    },
-    {
-        "pitch": 67,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "pitch": 67,
-        "duration": 1,
-        "tone": 5,
-        "phrasing": 1
-    },
-    {
-        "pitch": 67,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "pitch": 67,
-        "duration": 1,
-        "tone": 5,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 71,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 72,
-        "duration": 1,
-        "tone": 2,
-        "phrasing": 2
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 69,
-        "duration": 2,
-        "tone": 1,
-        "phrasing": 1
-    },
-    {
-        "pitch": 67,
-        "duration": 1,
-        "tone": 5,
-        "phrasing": 1
-    },
-    {
-        "pitch": 69,
-        "duration": 5,
-        "tone": 2,
-        "phrasing": 1
-    },
-    {
-        "pitch": 69,
-        "duration": 1,
-        "tone": 1,
-        "phrasing": 2
-    },
-    {
-        "pitch": 67,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "pitch": 69,
-        "duration": 1,
-        "tone": 1,
-        "phrasing": 2
-    },
-    {
-        "pitch": 67,
-        "duration": 1,
-        "tone": 3,
-        "phrasing": 1
-    },
-    {
-        "pitch": 69,
-        "duration": 1,
-        "tone": 2,
-        "phrasing": 2
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 59,
-        "duration": 2,
-        "tone": 5,
-        "phrasing": 1
-    },
-    {
-        "tone": 10,
-        "pitch": 1,
-        "duration": 0,
-        "phrasing": 5
-    },
-    {
-        "pitch": 62,
-        "duration": 2,
-        "tone": 1,
-        "phrasing": 2
     },
     {
         "pitch": 60,
         "duration": 8,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "pitch": 0,
+        "duration": 12,
+        "tone": 8,
+        "phrasing": 0
+    },
+    {
+        "pitch": 60,
+        "duration": 2,
+        "tone": 5,
+        "phrasing": 1
+    },
+    {
+        "pitch": 60,
+        "duration": 2,
+        "tone": 3,
+        "phrasing": 2
+    },
+    {
+        "pitch": 60,
+        "duration": 4,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 60,
+        "duration": 2,
+        "tone": 4,
+        "phrasing": 2
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 62,
+        "duration": 2,
+        "tone": 4,
+        "phrasing": 1
+    },
+    {
+        "pitch": 64,
+        "duration": 6,
+        "tone": 6,
+        "phrasing": 2
+    },
+    {
+        "pitch": 67,
+        "duration": 10,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 65,
+        "duration": 4,
+        "tone": 3,
+        "phrasing": 2
+    },
+    {
+        "pitch": 65,
+        "duration": 4,
+        "tone": 5,
+        "phrasing": 1
+    },
+    {
+        "pitch": 60,
+        "duration": 2,
+        "tone": 4,
+        "phrasing": 1
+    },
+    {
+        "pitch": 65,
+        "duration": 6,
+        "tone": 5,
+        "phrasing": 2
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 64,
+        "duration": 16,
+        "tone": 6,
+        "phrasing": 1
+    },
+    {
+        "pitch": 0,
+        "duration": 8,
+        "tone": 8,
+        "phrasing": 0
+    },
+    {
+        "pitch": 60,
+        "duration": 2,
+        "tone": 4,
+        "phrasing": 1
+    },
+    {
+        "pitch": 60,
+        "duration": 2,
+        "tone": 4,
+        "phrasing": 2
+    },
+    {
+        "pitch": 60,
+        "duration": 4,
+        "tone": 4,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 64,
+        "duration": 2,
+        "tone": 6,
+        "phrasing": 2
+    },
+    {
+        "pitch": 67,
+        "duration": 10,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "pitch": 0,
+        "duration": 4,
+        "tone": 7,
+        "phrasing": 0
+    },
+    {
+        "pitch": 67,
+        "duration": 4,
+        "tone": 5,
+        "phrasing": 1
+    },
+    {
+        "pitch": 69,
+        "duration": 6,
+        "tone": 1,
+        "phrasing": 2
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 67,
+        "duration": 4,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "pitch": 67,
+        "duration": 4,
+        "tone": 2,
+        "phrasing": 2
+    },
+    {
+        "pitch": 65,
+        "duration": 4,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "pitch": 67,
+        "duration": 10,
+        "tone": 2,
+        "phrasing": 1
+    },
+    {
+        "pitch": 0,
+        "duration": 12,
+        "tone": 8,
+        "phrasing": 0
+    },
+    {
+        "pitch": 60,
+        "duration": 2,
+        "tone": 4,
+        "phrasing": 1
+    },
+    {
+        "pitch": 60,
+        "duration": 2,
+        "tone": 4,
+        "phrasing": 2
+    },
+    {
+        "pitch": 60,
+        "duration": 4,
+        "tone": 4,
+        "phrasing": 1
+    },
+    {
+        "pitch": 60,
+        "duration": 2,
+        "tone": 4,
+        "phrasing": 2
+    },
+    {
+        "pitch": 67,
+        "duration": 14,
+        "tone": 2,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 67,
+        "duration": 4,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 69,
+        "duration": 4,
+        "tone": 5,
+        "phrasing": 2
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 72,
+        "duration": 8,
+        "tone": 2,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 69,
+        "duration": 4,
+        "tone": 1,
+        "phrasing": 2
+    },
+    {
+        "pitch": 67,
+        "duration": 8,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "pitch": 0,
+        "duration": 4,
+        "tone": 7,
+        "phrasing": 0
+    },
+    {
+        "pitch": 65,
+        "duration": 4,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 64,
+        "duration": 6,
+        "tone": 6,
+        "phrasing": 2
+    },
+    {
+        "pitch": 64,
+        "duration": 2,
+        "tone": 6,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 65,
+        "duration": 2,
+        "tone": 1,
+        "phrasing": 2
+    },
+    {
+        "pitch": 64,
+        "duration": 10,
+        "tone": 2,
+        "phrasing": 1
+    },
+    {
+        "pitch": 0,
+        "duration": 8,
+        "tone": 8,
+        "phrasing": 0
+    },
+    {
+        "pitch": 55,
+        "duration": 2,
+        "tone": 4,
+        "phrasing": 2
+    },
+    {
+        "pitch": 55,
+        "duration": 2,
+        "tone": 4,
+        "phrasing": 1
+    },
+    {
+        "pitch": 64,
+        "duration": 4,
+        "tone": 1,
+        "phrasing": 2
+    },
+    {
+        "pitch": 62,
+        "duration": 8,
+        "tone": 2,
+        "phrasing": 1
+    },
+    {
+        "pitch": 60,
+        "duration": 4,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "pitch": 60,
+        "duration": 16,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "pitch": 0,
+        "duration": 2,
+        "tone": 7,
+        "phrasing": 0
+    },
+    {
+        "pitch": 69,
+        "duration": 2,
+        "tone": 1,
+        "phrasing": 2
+    },
+    {
+        "pitch": 69,
+        "duration": 2,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "pitch": 69,
+        "duration": 2,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "pitch": 69,
+        "duration": 2,
+        "tone": 1,
+        "phrasing": 2
+    },
+    {
+        "pitch": 69,
+        "duration": 2,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "pitch": 69,
+        "duration": 2,
+        "tone": 1,
+        "phrasing": 2
+    },
+    {
+        "pitch": 69,
+        "duration": 2,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "pitch": 67,
+        "duration": 4,
+        "tone": 5,
+        "phrasing": 1
+    },
+    {
+        "pitch": 69,
+        "duration": 2,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "pitch": 69,
+        "duration": 4,
+        "tone": 1,
+        "phrasing": 2
+    },
+    {
+        "pitch": 67,
+        "duration": 6,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "pitch": 0,
+        "duration": 2,
+        "tone": 7,
+        "phrasing": 0
+    },
+    {
+        "pitch": 67,
+        "duration": 2,
+        "tone": 5,
+        "phrasing": 1
+    },
+    {
+        "pitch": 67,
+        "duration": 2,
+        "tone": 5,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 67,
+        "duration": 2,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 67,
+        "duration": 2,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "pitch": 67,
+        "duration": 2,
+        "tone": 5,
+        "phrasing": 1
+    },
+    {
+        "pitch": 67,
+        "duration": 2,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "pitch": 67,
+        "duration": 2,
+        "tone": 5,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 72,
+        "duration": 4,
+        "tone": 5,
+        "phrasing": 2
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 71,
+        "duration": 2,
+        "tone": 6,
+        "phrasing": 1
+    },
+    {
+        "pitch": 72,
+        "duration": 4,
+        "tone": 5,
+        "phrasing": 2
+    },
+    {
+        "pitch": 69,
+        "duration": 6,
+        "tone": 6,
+        "phrasing": 1
+    },
+    {
+        "pitch": 0,
+        "duration": 2,
+        "tone": 7,
+        "phrasing": 0
+    },
+    {
+        "pitch": 69,
+        "duration": 2,
+        "tone": 6,
+        "phrasing": 1
+    },
+    {
+        "pitch": 69,
+        "duration": 2,
+        "tone": 6,
+        "phrasing": 1
+    },
+    {
+        "pitch": 69,
+        "duration": 2,
+        "tone": 6,
+        "phrasing": 1
+    },
+    {
+        "pitch": 69,
+        "duration": 2,
+        "tone": 6,
+        "phrasing": 2
+    },
+    {
+        "pitch": 69,
+        "duration": 4,
+        "tone": 6,
+        "phrasing": 1
+    },
+    {
+        "pitch": 72,
+        "duration": 2,
+        "tone": 2,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 69,
+        "duration": 4,
+        "tone": 1,
+        "phrasing": 2
+    },
+    {
+        "pitch": 67,
+        "duration": 2,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "pitch": 69,
+        "duration": 6,
+        "tone": 2,
+        "phrasing": 2
+    },
+    {
+        "pitch": 67,
+        "duration": 6,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 65,
+        "duration": 2,
+        "tone": 5,
+        "phrasing": 1
+    },
+    {
+        "pitch": 65,
+        "duration": 2,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "pitch": 65,
+        "duration": 2,
+        "tone": 5,
+        "phrasing": 1
+    },
+    {
+        "pitch": 65,
+        "duration": 2,
+        "tone": 5,
+        "phrasing": 2
+    },
+    {
+        "pitch": 65,
+        "duration": 8,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "pitch": 65,
+        "duration": 4,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "pitch": 65,
+        "duration": 2,
+        "tone": 3,
+        "phrasing": 2
+    },
+    {
+        "pitch": 65,
+        "duration": 2,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "pitch": 65,
+        "duration": 2,
+        "tone": 5,
+        "phrasing": 1
+    },
+    {
+        "pitch": 65,
+        "duration": 6,
+        "tone": 5,
+        "phrasing": 1
+    },
+    {
+        "pitch": 67,
+        "duration": 2,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 72,
+        "duration": 4,
+        "tone": 1,
+        "phrasing": 2
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 71,
+        "duration": 16,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 76,
+        "duration": 2,
+        "tone": 1,
+        "phrasing": 2
+    },
+    {
+        "pitch": 76,
+        "duration": 2,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "pitch": 76,
+        "duration": 4,
+        "tone": 2,
+        "phrasing": 1
+    },
+    {
+        "pitch": 76,
+        "duration": 2,
+        "tone": 2,
+        "phrasing": 2
+    },
+    {
+        "pitch": 76,
+        "duration": 2,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 74,
+        "duration": 4,
+        "tone": 1,
+        "phrasing": 2
+    },
+    {
+        "pitch": 74,
+        "duration": 4,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "pitch": 71,
+        "duration": 4,
+        "tone": 3,
+        "phrasing": 2
+    },
+    {
+        "pitch": 69,
+        "duration": 8,
+        "tone": 6,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 69,
+        "duration": 2,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "pitch": 69,
+        "duration": 2,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "pitch": 69,
+        "duration": 2,
+        "tone": 1,
+        "phrasing": 2
+    },
+    {
+        "pitch": 69,
+        "duration": 6,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 67,
+        "duration": 4,
+        "tone": 1,
+        "phrasing": 2
+    },
+    {
+        "pitch": 67,
+        "duration": 4,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 64,
+        "duration": 4,
+        "tone": 1,
+        "phrasing": 2
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 62,
+        "duration": 4,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "pitch": 0,
+        "duration": 4,
+        "tone": 7,
+        "phrasing": 0
+    },
+    {
+        "pitch": 65,
+        "duration": 2,
+        "tone": 5,
+        "phrasing": 2
+    },
+    {
+        "pitch": 65,
+        "duration": 2,
+        "tone": 5,
+        "phrasing": 1
+    },
+    {
+        "pitch": 65,
+        "duration": 2,
+        "tone": 5,
+        "phrasing": 1
+    },
+    {
+        "pitch": 65,
+        "duration": 6,
+        "tone": 5,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 67,
+        "duration": 4,
+        "tone": 3,
+        "phrasing": 2
+    },
+    {
+        "pitch": 69,
+        "duration": 4,
+        "tone": 2,
+        "phrasing": 1
+    },
+    {
+        "pitch": 69,
+        "duration": 4,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "pitch": 67,
+        "duration": 4,
+        "tone": 5,
+        "phrasing": 1
+    },
+    {
+        "pitch": 0,
+        "duration": 2,
+        "tone": 7,
+        "phrasing": 0
+    },
+    {
+        "pitch": 69,
+        "duration": 2,
+        "tone": 6,
+        "phrasing": 1
+    },
+    {
+        "pitch": 69,
+        "duration": 2,
+        "tone": 6,
+        "phrasing": 2
+    },
+    {
+        "pitch": 69,
+        "duration": 2,
+        "tone": 6,
+        "phrasing": 1
+    },
+    {
+        "pitch": 69,
+        "duration": 4,
+        "tone": 6,
+        "phrasing": 1
+    },
+    {
+        "pitch": 72,
+        "duration": 4,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "pitch": 76,
+        "duration": 8,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 74,
+        "duration": 8,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "pitch": 0,
+        "duration": 4,
+        "tone": 7,
+        "phrasing": 0
+    },
+    {
+        "pitch": 76,
+        "duration": 2,
+        "tone": 1,
+        "phrasing": 2
+    },
+    {
+        "pitch": 76,
+        "duration": 2,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "pitch": 76,
+        "duration": 2,
+        "tone": 2,
+        "phrasing": 1
+    },
+    {
+        "pitch": 76,
+        "duration": 4,
+        "tone": 2,
+        "phrasing": 2
+    },
+    {
+        "pitch": 76,
+        "duration": 2,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "pitch": 74,
+        "duration": 4,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "pitch": 74,
+        "duration": 4,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "pitch": 76,
+        "duration": 2,
+        "tone": 1,
+        "phrasing": 2
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 74,
+        "duration": 6,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "pitch": 0,
+        "duration": 4,
+        "tone": 7,
+        "phrasing": 0
+    },
+    {
+        "pitch": 69,
+        "duration": 2,
+        "tone": 2,
+        "phrasing": 2
+    },
+    {
+        "pitch": 69,
+        "duration": 2,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "pitch": 69,
+        "duration": 4,
+        "tone": 1,
+        "phrasing": 2
+    },
+    {
+        "pitch": 69,
+        "duration": 4,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "pitch": 67,
+        "duration": 4,
+        "tone": 5,
+        "phrasing": 1
+    },
+    {
+        "pitch": 67,
+        "duration": 4,
+        "tone": 5,
+        "phrasing": 1
+    },
+    {
+        "pitch": 64,
+        "duration": 4,
+        "tone": 6,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 60,
+        "duration": 4,
+        "tone": 4,
+        "phrasing": 1
+    },
+    {
+        "pitch": 0,
+        "duration": 4,
+        "tone": 7,
+        "phrasing": 0
+    },
+    {
+        "pitch": 65,
+        "duration": 2,
+        "tone": 5,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 65,
+        "duration": 2,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 65,
+        "duration": 2,
+        "tone": 5,
+        "phrasing": 1
+    },
+    {
+        "pitch": 65,
+        "duration": 6,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 67,
+        "duration": 4,
+        "tone": 5,
+        "phrasing": 1
+    },
+    {
+        "pitch": 69,
+        "duration": 2,
+        "tone": 2,
+        "phrasing": 1
+    },
+    {
+        "pitch": 69,
+        "duration": 6,
+        "tone": 2,
+        "phrasing": 2
+    },
+    {
+        "pitch": 67,
+        "duration": 4,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "pitch": 0,
+        "duration": 4,
+        "tone": 7,
+        "phrasing": 0
+    },
+    {
+        "pitch": 69,
+        "duration": 2,
+        "tone": 6,
+        "phrasing": 2
+    },
+    {
+        "pitch": 69,
+        "duration": 2,
+        "tone": 6,
+        "phrasing": 1
+    },
+    {
+        "pitch": 69,
+        "duration": 2,
+        "tone": 6,
+        "phrasing": 1
+    },
+    {
+        "pitch": 69,
+        "duration": 2,
+        "tone": 6,
+        "phrasing": 2
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 69,
+        "duration": 2,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 72,
+        "duration": 2,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 76,
+        "duration": 4,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "pitch": 74,
+        "duration": 16,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "pitch": 0,
+        "duration": 16,
+        "tone": 8,
+        "phrasing": 0
+    },
+    {
+        "pitch": 60,
+        "duration": 2,
+        "tone": 5,
+        "phrasing": 2
+    },
+    {
+        "pitch": 60,
+        "duration": 2,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "pitch": 60,
+        "duration": 4,
+        "tone": 5,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 60,
+        "duration": 2,
+        "tone": 4,
+        "phrasing": 2
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 62,
+        "duration": 2,
+        "tone": 4,
+        "phrasing": 1
+    },
+    {
+        "pitch": 64,
+        "duration": 6,
+        "tone": 6,
+        "phrasing": 2
+    },
+    {
+        "pitch": 67,
+        "duration": 6,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "pitch": 0,
+        "duration": 4,
+        "tone": 7,
+        "phrasing": 0
+    },
+    {
+        "pitch": 65,
+        "duration": 4,
+        "tone": 3,
+        "phrasing": 2
+    },
+    {
+        "pitch": 65,
+        "duration": 4,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "pitch": 60,
+        "duration": 2,
+        "tone": 4,
+        "phrasing": 1
+    },
+    {
+        "pitch": 65,
+        "duration": 6,
+        "tone": 5,
+        "phrasing": 2
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 64,
+        "duration": 16,
+        "tone": 6,
+        "phrasing": 1
+    },
+    {
+        "pitch": 0,
+        "duration": 4,
+        "tone": 7,
+        "phrasing": 0
+    },
+    {
+        "pitch": 60,
+        "duration": 2,
+        "tone": 4,
+        "phrasing": 1
+    },
+    {
+        "pitch": 60,
+        "duration": 2,
+        "tone": 4,
+        "phrasing": 2
+    },
+    {
+        "pitch": 60,
+        "duration": 4,
+        "tone": 4,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 64,
+        "duration": 2,
+        "tone": 6,
+        "phrasing": 2
+    },
+    {
+        "pitch": 67,
+        "duration": 10,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "pitch": 0,
+        "duration": 4,
+        "tone": 7,
+        "phrasing": 0
+    },
+    {
+        "pitch": 67,
+        "duration": 4,
+        "tone": 3,
+        "phrasing": 2
+    },
+    {
+        "pitch": 69,
+        "duration": 4,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "pitch": 67,
+        "duration": 4,
+        "tone": 2,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 67,
+        "duration": 4,
+        "tone": 5,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 65,
+        "duration": 4,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "pitch": 67,
+        "duration": 16,
+        "tone": 2,
+        "phrasing": 1
+    },
+    {
+        "pitch": 0,
+        "duration": 4,
+        "tone": 7,
+        "phrasing": 0
+    },
+    {
+        "pitch": 60,
+        "duration": 2,
+        "tone": 4,
+        "phrasing": 1
+    },
+    {
+        "pitch": 60,
+        "duration": 2,
+        "tone": 4,
+        "phrasing": 2
+    },
+    {
+        "pitch": 60,
+        "duration": 4,
+        "tone": 4,
+        "phrasing": 1
+    },
+    {
+        "pitch": 67,
+        "duration": 2,
+        "tone": 1,
+        "phrasing": 2
+    },
+    {
+        "pitch": 67,
+        "duration": 10,
+        "tone": 2,
+        "phrasing": 1
+    },
+    {
+        "pitch": 0,
+        "duration": 4,
+        "tone": 7,
+        "phrasing": 0
+    },
+    {
+        "pitch": 67,
+        "duration": 4,
+        "tone": 5,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 69,
+        "duration": 4,
+        "tone": 3,
+        "phrasing": 2
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 72,
+        "duration": 8,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "pitch": 69,
+        "duration": 4,
+        "tone": 2,
+        "phrasing": 2
+    },
+    {
+        "pitch": 67,
+        "duration": 8,
+        "tone": 5,
+        "phrasing": 1
+    },
+    {
+        "pitch": 0,
+        "duration": 4,
+        "tone": 7,
+        "phrasing": 0
+    },
+    {
+        "pitch": 65,
+        "duration": 4,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 64,
+        "duration": 6,
+        "tone": 6,
+        "phrasing": 2
+    },
+    {
+        "pitch": 64,
+        "duration": 2,
+        "tone": 6,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 65,
+        "duration": 2,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "tone": 10,
+        "pitch": 1,
+        "duration": 0,
+        "phrasing": 5
+    },
+    {
+        "pitch": 64,
+        "duration": 14,
+        "tone": 1,
+        "phrasing": 1
+    },
+    {
+        "pitch": 0,
+        "duration": 4,
+        "tone": 7,
+        "phrasing": 0
+    },
+    {
+        "pitch": 55,
+        "duration": 2,
+        "tone": 4,
+        "phrasing": 2
+    },
+    {
+        "pitch": 55,
+        "duration": 2,
+        "tone": 4,
+        "phrasing": 1
+    },
+    {
+        "pitch": 64,
+        "duration": 4,
+        "tone": 1,
+        "phrasing": 2
+    },
+    {
+        "pitch": 62,
+        "duration": 8,
+        "tone": 2,
+        "phrasing": 1
+    },
+    {
+        "pitch": 60,
+        "duration": 4,
+        "tone": 3,
+        "phrasing": 1
+    },
+    {
+        "pitch": 60,
+        "duration": 20,
         "tone": 3,
         "phrasing": 1
     }

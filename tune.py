@@ -22,73 +22,71 @@ class PitchLoss(keras.layers.Layer):
         return keras.backend.log(sum * 5 + 1) * 2
 
 
-# Optimised using keras tuner
-INPUT_DROPOUTS = {
-    "pitch": 0.4,
-    "duration": 0.3,
-    "pos_internal": 0.2,
-    "pos_external": 0.3,
-    "valid_pitches": 0.4,
-    "current_tone": 0.2,
-    "next_tone": 0.2,
-    "when_end": 0.3,
-    "phrasing": 0.6,
-}
-
-
 def build_hyper_model(hp):
     inputs = dict()
-    LSTM_processed_inputs = dict()
+    LSTMs = dict()
+
     outputs = dict()
 
     # create the model architecture
     for input_type in input_params:
         inputs[input_type] = keras.layers.Input(shape=(None, param_shapes[input_type]))
         tmp = keras.layers.LSTM(param_shapes[input_type], return_sequences=True)(inputs[input_type])
-        LSTM_processed_inputs[input_type] = keras.layers.Dropout(hp.Float(f'input dropout: {input_type}', min_value=0.1,
-                                                                          max_value=0.9, step=0.1))(tmp)
+        LSTMs[input_type] = keras.layers.Dropout(hp.Float(f'input dropout: {input_type}', min_value=0.1,
+                                                          max_value=0.9, step=0.1))(tmp)
 
-    combined_input = keras.layers.concatenate(list(LSTM_processed_inputs.values()))
+    combined_input = keras.layers.concatenate(list(LSTMs.values()))
 
     combined_dropout_1 = hp.Float('combined input dropout 1', min_value=0.1, max_value=0.9, step=0.1)
     combined_dropout_2 = hp.Float('combined input dropout 2', min_value=0.1, max_value=0.9, step=0.1)
+    combined_dropout_3 = hp.Float('combined input dropout 3', min_value=0.1, max_value=0.9, step=0.1)
+    combined_dropout_4 = hp.Float('combined input dropout 4', min_value=0.1, max_value=0.9, step=0.1)
+    combined_dropout_5 = hp.Float('combined input dropout 5', min_value=0.1, max_value=0.9, step=0.1)
+    combined_dropout_6 = hp.Float('combined input dropout 5', min_value=0.1, max_value=0.9, step=0.1)
+    combined_dropout_7 = hp.Float('combined input dropout 5', min_value=0.1, max_value=0.9, step=0.1)
 
     units_1 = hp.Int('Units 1', min_value=128, max_value=512, step=64)
     units_2 = hp.Int('Units 2', min_value=128, max_value=512, step=64)
     units_3 = hp.Int('Units 3', min_value=128, max_value=512, step=64)
     units_4 = hp.Int('Units 4', min_value=128, max_value=512, step=64)
     units_5 = hp.Int('Units 5', min_value=128, max_value=512, step=64)
+    units_6 = hp.Int('Units 6', min_value=128, max_value=512, step=64)
+    units_7 = hp.Int('Units 7', min_value=128, max_value=512, step=64)
 
     x = keras.layers.LSTM(units_1, return_sequences=True)(combined_input)
     x = keras.layers.Dropout(combined_dropout_1)(x)
-    x = keras.layers.LSTM(units_2)(x)
-    x = keras.layers.BatchNormalization()(x)
-    x = keras.layers.Dropout(combined_dropout_2)(x)
-    x = keras.layers.Dense(units_3, activation="relu")(x)
+    y = keras.layers.LSTM(units_2, return_sequences=True)(combined_input)
+    y = keras.layers.Dropout(combined_dropout_2)(y)
+    z = keras.layers.LSTM(units_3, return_sequences=True)(
+        keras.layers.concatenate(
+            [LSTMs["pos_internal"], LSTMs["current_tone"], LSTMs["next_tone"], LSTMs["future_words"]])
+    )
+    z = keras.layers.Dropout(combined_dropout_3)(z)
 
-    combined_dropout_3 = hp.Float('combined input dropout 3', min_value=0.1, max_value=0.9, step=0.1)
+    x2 = keras.layers.LSTM(units_4)(keras.layers.concatenate([x, y, z]))
+    x2 = keras.layers.BatchNormalization()(x2)
+    x2 = keras.layers.Dropout(combined_dropout_4)(x2)
+    x = keras.layers.Dense(units_5, activation="relu")(x2)
 
-    pitch_output_dropout = hp.Float('pitch output dropout', min_value=0.1, max_value=0.9, step=0.1)
-    duration_output_dropout = hp.Float('duration output dropout', min_value=0.1, max_value=0.9, step=0.1)
-
-    tmp = keras.layers.Dense(units_4, activation="relu")(x)
+    tmp = keras.layers.Dense(units_6, activation="relu")(x)
     tmp = keras.layers.BatchNormalization()(tmp)
-    tmp = keras.layers.Dropout(combined_dropout_3)(tmp)
+    tmp = keras.layers.Dropout(combined_dropout_5)(tmp)
     outputs["pitch"] = keras.layers.Dense(param_shapes["pitch"], activation="softmax", name="pitch")(tmp)
-    tmp = keras.layers.Dropout(pitch_output_dropout)(outputs["pitch"])
-    tmp = keras.layers.Dense(units_5, activation="relu")(keras.layers.concatenate([x, tmp]))
+
+    tmp = keras.layers.Dropout(combined_dropout_6)(outputs["pitch"])
+    tmp = keras.layers.Dense(units_7, activation="relu")(keras.layers.concatenate([x, tmp]))
     tmp = keras.layers.BatchNormalization()(tmp)
-    tmp = keras.layers.Dropout(duration_output_dropout)(tmp)
+    tmp = keras.layers.Dropout(combined_dropout_7)(tmp)
     outputs["duration"] = keras.layers.Dense(param_shapes["duration"], activation="softmax", name="duration")(tmp)
+
+    lr = hp.Float('Learning rate', min_value=0.001, max_value=0.0025, step=0.0005)
 
     model = keras.Model(list(inputs.values()), list(outputs.values()))
     model.add_loss(PitchLoss()(inputs["valid_pitches"], outputs["pitch"]))
 
-    lr = hp.Float('duration output dropout', min_value=0.001, max_value=0.0025, step=0.0005)
-
     # compile model
     model.compile(loss="categorical_crossentropy",
-                  optimizer=keras.optimizers.Adam(lr),
+                  optimizer=keras.optimizers.Adam(learning_rate=lr),
                   metrics=["accuracy"])
 
     return model
