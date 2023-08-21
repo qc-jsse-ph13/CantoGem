@@ -216,8 +216,8 @@ class MelodyGenerator:
             # make a prediction
             probabilities = self.model.predict(onehot_seed)
             probabilities[output_params.index("duration")][0][duration_to_id["0"]] = 0.0
-            # if np.sum(probabilities[output_params.index("pitch")][0] * (valid_pitches + 0.000005)) > 0:
-            #    probabilities[output_params.index("pitch")][0] *= (valid_pitches + 0.000005)
+            if np.sum(probabilities[output_params.index("pitch")][0] * (valid_pitches + 0.05)) > 0:
+                probabilities[output_params.index("pitch")][0] *= (valid_pitches + 0.05)
             probabilities[output_params.index("pitch")][0][pitch_to_id["1"]] = 0.0
             if all_tones[i]["tone"] in {LONG_REST_TONE, REST_TONE, PAD_TONE}:
                 probabilities[output_params.index("pitch")][0][pitch_to_id["0"]] = 10000.0
