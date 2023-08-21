@@ -22,7 +22,7 @@ def send_melody(userid):
         abort(409)
 
     data = request.json
-    if len(data["lyrics"]) > 150:
+    if len(data["lyrics"]) > 1000:
         abort(403)
 
     if "model_type" not in data:
