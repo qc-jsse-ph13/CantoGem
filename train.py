@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 from paths import SAVE_MODEL_PATH, PLOT_PATH
 
-LEARNING_RATE = 0.001
+LEARNING_RATE = 0.0015
 EPOCHS = 100
 BATCH_SIZE = 50
 
@@ -25,17 +25,17 @@ class PitchLoss(keras.layers.Layer):
 
 
 INPUT_DROPOUTS = {
-    "pitch": 0.2,
-    "duration": 0.2,
-    "pos_internal": 0.2,
-    "pos_external": 0.2,
-    "valid_pitches": 0.2,
-    "current_tone": 0.2,
-    "next_tone": 0.2,
-    "when_end": 0.3,
-    "when_rest": 0.3,
-    "phrasing": 0.6,
-    "future_words": 0.2,
+    "pitch": 0.7,
+    "duration": 0.9,
+    "pos_internal": 0.5,
+    "pos_external": 0.8,
+    "valid_pitches": 0.6,
+    "current_tone": 0.4,
+    "next_tone": 0.3,
+    "when_end": 0.6,
+    "when_rest": 0.2,
+    "phrasing": 0.5,
+    "future_words": 0.8,
 }
 
 
@@ -54,27 +54,27 @@ def build_model():
 
     combined_input = keras.layers.concatenate(list(LSTMs.values()))
 
-    x = keras.layers.LSTM(192, return_sequences=True)(combined_input)
-    x = keras.layers.Dropout(0.4)(x)
-    y = keras.layers.LSTM(128, return_sequences=True)(combined_input)
-    y = keras.layers.Dropout(0.4)(y)
-    z = keras.layers.LSTM(64, return_sequences=True)(
+    x = keras.layers.LSTM(512, return_sequences=True)(combined_input)
+    x = keras.layers.Dropout(0.3)(x)
+    y = keras.layers.LSTM(192, return_sequences=True)(combined_input)
+    y = keras.layers.Dropout(0.6)(y)
+    z = keras.layers.LSTM(320, return_sequences=True)(
         keras.layers.concatenate([LSTMs["pos_internal"], LSTMs["current_tone"], LSTMs["next_tone"], LSTMs["future_words"]])
     )
-    z = keras.layers.Dropout(0.4)(z)
+    z = keras.layers.Dropout(0.1)(z)
 
     x2 = keras.layers.LSTM(384)(keras.layers.concatenate([x, y, z]))
     x2 = keras.layers.BatchNormalization()(x2)
-    x2 = keras.layers.Dropout(0.2)(x2)
-    x = keras.layers.Dense(384, activation="relu")(x2)
+    x2 = keras.layers.Dropout(0.1)(x2)
+    x = keras.layers.Dense(256, activation="relu")(x2)
 
-    tmp = keras.layers.Dense(384, activation="relu")(x)
+    tmp = keras.layers.Dense(320, activation="relu")(x)
     tmp = keras.layers.BatchNormalization()(tmp)
-    tmp = keras.layers.Dropout(0.4)(tmp)
+    tmp = keras.layers.Dropout(0.2)(tmp)
     outputs["pitch"] = keras.layers.Dense(param_shapes["pitch"], activation="softmax", name="pitch")(tmp)
 
     tmp = keras.layers.Dropout(0.8)(outputs["pitch"])
-    tmp = keras.layers.Dense(128, activation="relu")(keras.layers.concatenate([x, tmp]))
+    tmp = keras.layers.Dense(512, activation="relu")(keras.layers.concatenate([x, tmp]))
     tmp = keras.layers.BatchNormalization()(tmp)
     tmp = keras.layers.Dropout(0.7)(tmp)
     outputs["duration"] = keras.layers.Dense(param_shapes["duration"], activation="softmax", name="dur.")(tmp)
@@ -108,9 +108,9 @@ def train():
     # train the model
     # Create a callback that saves the model's weights
     cp_callback = [keras.callbacks.ModelCheckpoint(filepath=SAVE_MODEL_PATH, verbose=0, save_weights_only=True),
-                   keras.callbacks.EarlyStopping(monitor="val_loss", patience=5000, verbose=0)]
+                   keras.callbacks.EarlyStopping(monitor="val_loss", patience=3, verbose=0)]
 
-    history = model.fit(list(inputs.values()), list(targets.values()), epochs=5000, batch_size=BATCH_SIZE,
+    history = model.fit(list(inputs.values()), list(targets.values()), epochs=EPOCHS, batch_size=BATCH_SIZE,
                         callbacks=[cp_callback], validation_data=(testing_inputs.values(), testing_targets.values()))
 
     # Save the model
